@@ -1,0 +1,85 @@
+.myportfolio{
+    font-family: Arial;
+    color: rgb(61, 36, 85);
+    font-weight: bolder;
+}
+
+.span1{
+    position: absolute;
+    right: 20px;
+    top: 20px; 
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+span a{
+    color: rgb(61, 36, 85);
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+.front-font{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: rgb(61, 36, 85);
+    font-size: 30px;
+}
+
+.main-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img1{
+    height: 600px;
+    width: 1000px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; 
+    justify-items: center; 
+}
+
+.images img {
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
+
+.img9 {
+    text-align: start; 
+}
+
+.img9 img {
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img9 p {
+    margin-top: 10px; 
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(61, 36, 85);
+    font-weight: bold;
+}
+
+.img9 span {
+    font-family: arial,sans-serif;
+    font-size: 17px;
+    color: #4219349E;
+    font-weight: 400;
+    
+}
